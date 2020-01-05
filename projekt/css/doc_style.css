@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+
+#lorry {
+    display: none;
+}
+
+#canv_div {
+    float: left;
+}
+
+#controls {
+    background-color: #A1BDC7;
+    padding: 5px;
+}

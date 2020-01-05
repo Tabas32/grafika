@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <h3> Rotation Y </h3>
+	<div class = "slidecontainer">
+	  <input type="range" min="0" max="1000" value="180" class="slider" id="rotYrange" oninput="sliderRyChange(this.value)">
+	</div>
+
+  <h3> Camera FOV </h3>
+	<div class="slidecontainer">
+	  <input type="range" min="0" max="120" value="60" class="slider" id="camFOV_value" oninput="setCamFov(this.value)" >
+	</div>
+
+  <h3> Camera angle </h3>
+	<div class="slidecontainer">
+	  <input type="range" min="0" max="120" value="60" class="slider" id="camFOV_value" oninput="set(this.value)" >
+	</div>
+
+  <canvas id="glCanvas" width="800" height="600">
+
+   <script src="js/glmatrix/gl-matrix.js"></script>
+   <script src="js/GUI_Cube_sliders2.js"></script>
+
+  </canvas>
+
+  
+</body>
+</html>
